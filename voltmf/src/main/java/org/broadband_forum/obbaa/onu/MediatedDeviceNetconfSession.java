@@ -611,7 +611,7 @@ public class MediatedDeviceNetconfSession extends AbstractNetconfClientSession {
             }
         }
         removeRequestFromMap(identifier, response);
-        LOGGER.debug(String.format("Processed %s response based on vOMCI response as follows:\n %s",
+        LOGGER.debug(String.format("Processed %s response based on vOMCI response as follows:%n %s",
                 operationType, response.responseToString()));
         return response;
     }
