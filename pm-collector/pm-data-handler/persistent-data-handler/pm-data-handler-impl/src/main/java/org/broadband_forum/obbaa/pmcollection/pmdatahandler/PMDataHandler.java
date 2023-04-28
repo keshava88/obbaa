@@ -302,11 +302,11 @@ public class PMDataHandler implements IpfixDataHandler, ThreadFactory {
                             point.m_fields.put(fieldname, Double.parseDouble(value));
                             break;
                         case T_string:
+                        case T_boolean:
+                            point.m_fields.put(fieldname, Boolean.parseBoolean(value));
                         default:
                             point.m_fields.put(fieldname, value);
                             break;
-                        case T_boolean:
-                            point.m_fields.put(fieldname, Boolean.parseBoolean(value));
                     }
                 }
                 else {
