@@ -96,7 +96,7 @@
         <dependency>
             <groupId>org.opendaylight.yangtools</groupId>
             <artifactId>yang-model-api</artifactId>
-            <version>3.0.16</version>
+            <version>10.0.2</version>
         </dependency>
         <dependency>
             <groupId>org.broadband-forum.obbaa.netconf</groupId>
