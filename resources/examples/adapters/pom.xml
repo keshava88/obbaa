@@ -37,6 +37,6 @@
     </modules>
     <properties>
         <jsch.version>0.1.54</jsch.version>
-        <snmp4j.version>2.7.0</snmp4j.version>
+        <snmp4j.version>2.8.2</snmp4j.version>
     </properties>
 </project>
