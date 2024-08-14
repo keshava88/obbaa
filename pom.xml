@@ -56,7 +56,7 @@
         <maven-dependency-plugin.version>3.0.0</maven-dependency-plugin.version>
         <maven-checkstyle-plugin.version>3.0.0</maven-checkstyle-plugin.version>
         <maven-resources-plugin.version>3.1.0</maven-resources-plugin.version>
-        <apache.karaf.version>4.2.7</apache.karaf.version>
+        <apache.karaf.version>4.2.10</apache.karaf.version>
         <karaf.maven.plugin.version>4.2.7</karaf.maven.plugin.version>
         <codehaus.build_helper.plugin.version>1.9</codehaus.build_helper.plugin.version>
         <bundle.plugin.version>4.2.1</bundle.plugin.version>
